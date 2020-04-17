@@ -697,11 +697,9 @@ iframe{
 	height: auto;
 	resize: none;
 	}
-	#mynavbar{
-		/* position: absolute;
-	top: 80%;
-	 */
-	
+
+	.test-head h3{
+font-size: 50px;
 	}
 	.market-left h2{
 		font-size:48px;
