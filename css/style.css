@@ -693,9 +693,8 @@ iframe{
 }
 @media only screen and (max-width:768px){
 	#my-text{
-	width: auto;
-	height: auto;
-	resize: none;
+		width: 250px !important;
+		height: 150px !important;
 	}
 
 	.test-head h3{
