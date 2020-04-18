@@ -736,6 +736,9 @@ font-size: 50px;
 	display: none;
 
 }
+.contact-cards .col-md-4{
+	margin: 10px 0px;
+}
 
 	body{
 		text-align: center;
