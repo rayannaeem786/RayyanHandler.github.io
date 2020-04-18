@@ -739,11 +739,15 @@ font-size: 50px;
 .contact-cards .col-md-4{
 	margin: 10px 0px;
 }
+.test .col-md-4{
+	margin: 10px 0px;
+}
 
 	body{
 		text-align: center;
 		overflow-x: hidden;
 	}
+
 }
 
 #back2Top{
