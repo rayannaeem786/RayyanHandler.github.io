@@ -204,17 +204,17 @@
                         <h2 style="font-size: 40px;">OUR FUN FACTS</h2>
                     </div>
                     <div class="col-md-3">
-                        <h1>141 +</h1>
+                        <h1 class="counter">3141</h1>
                         <hr>
                         <h5>LIKES</h5>
                     </div>
                     <div class="col-md-3">
-                        <h1>251 +</h1>
+                        <h1 class="counter">1251</h1>
                         <hr>
                         <h5>GLOBAL CUSTOMERS</h5>
                     </div>
                     <div class="col-md-3">
-                        <h1>880 +</h1>
+                        <h1 class="counter">10880</h1>
                         <hr>
                         <h5>COMPLETED PROJECTS</h5>
                     </div>
@@ -407,9 +407,20 @@
     <script>
         new WOW().init();
     </script>
+
     <script src="js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha256-jDnOKIOq2KNsQZTcBTEnsp76FnfMEttF6AV2DF2fFNE=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha256-JtQPj/3xub8oapVMaIijPNoM0DHoAtgh/gwFYuN5rik=" crossorigin="anonymous"></script>
+<script>$('.counter').counterUp({
+    delay: 10,
+    time: 4000,
+     offset: 70,
+     beginAt: 100,
+     formatter: function (n) {
+       return n.replace(/,/g, '.');
+    }
+});</script>
 </body>
 
 </html>
